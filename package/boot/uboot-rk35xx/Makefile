@@ -44,7 +44,7 @@ define U-Boot/rk3588-evb
   SOC:=rk3588
 endef
 
-UBOOT_TARGETS := rk3528-evb rk3588-evb
+#UBOOT_TARGETS := rk3528-evb rk3588-evb
 
 UBOOT_CONFIGURE_VARS += USE_PRIVATE_LIBGCC=yes
 
